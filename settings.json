@@ -1,11 +1,10 @@
 {
     "replace": [
-        { "find": " ", "replace": ""},
         { "find": "「", "replace": ""},
         { "find": "」", "replace": ""},
-        { "find": "アニメ", "replace": ""},
+        { "find": "水曜アニメ・水もん ", "replace": "" },
         { "find": "TVアニメ", "replace": ""},
-        { "find": "水曜アニメ・水もん", "replace": "" }
+        { "find": "アニメ", "replace": ""}
     ],
     "service": [
         { "serviceName": "NHKBS1", "channelUserName": "BS1", "channelId": 9},
