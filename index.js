@@ -223,7 +223,13 @@ class Renamer {
             usr: "node_syobocal"
         }).then(programs => {
             return new Promise((resolve, reject) => {
-                var filter = programs.filter(program => Renamer.toHalf(program.Title).includes(info.eventName.slice(0, 5)));
+                var filter = programs.filter(program => {
+                    var title = Renamer.toHalf(program.Title);
+                    var space = info.eventName.indexOf(" ");
+                    var trim = info.eventName.trim().slice(0, space < 5 ? space : 5);
+
+                    return title.includes(trim);
+                });
 
                 if (info.hasOwnProperty("channelId")) {
                     filter = filter.filter(program => program.ChID === info.channelId);
