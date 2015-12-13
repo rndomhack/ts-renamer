@@ -275,7 +275,7 @@ class Renamer {
 
             objMacro.title = program.title;
             objMacro.shortTitle = program.shortTitle || program.title;
-            objMacro.subTitle = program.subTitle;
+            objMacro.subTitle = objMacro.subTitle === null ? "" : program.subTitle;
 
             objMacro.count = program.count === null ? "" : program.count.toString();
             objMacro.count2 = program.count === null ? "" : ("0" + program.count).slice(-2);
