@@ -3,7 +3,10 @@
         { "find": "「", "replace": ""},
         { "find": "」", "replace": ""},
         { "find": "水曜アニメ・水もん ", "replace": "" },
+        { "find": "水曜アニメ・水もん", "replace": "" },
+        { "find": "TVアニメ ", "replace": ""},
         { "find": "TVアニメ", "replace": ""},
+        { "find": "アニメ ", "replace": ""},
         { "find": "アニメ", "replace": ""}
     ],
     "service": [
