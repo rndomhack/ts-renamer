@@ -188,7 +188,9 @@ class Rename {
             info.serviceName = Rename.toHalf(info.serviceName);
 
             // Replace brackets
-            info.eventName = info.eventName.replace(/\[.+\]/g, "");
+            info.eventName = info.eventName.replace(/\[.+?\]/g, "");
+            info.eventName = info.eventName.replace(/【\.+?\】/g, "");
+            info.eventName = info.eventName.replace(/<\.+?\>/g, "");
 
             // Replace others
             settings.replace.forEach(target => {
