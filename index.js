@@ -269,10 +269,10 @@ class Rename {
             objMacro.shortTitle = program.shortTitle || program.title;
             objMacro.subTitle = program.subTitle;
 
-            objMacro.count = program.count.toString();
-            objMacro.count2 = ("0" + program.count).slice(-2);
-            objMacro.count3 = ("00" + program.count).slice(-3);
-            objMacro.count4 = ("000" + program.count).slice(-4);
+            objMacro.count = program.count === null ? "" : program.count.toString();
+            objMacro.count2 = program.count === null ? "" : ("0" + program.count).slice(-2);
+            objMacro.count3 = program.count === null ? "" : ("00" + program.count).slice(-3);
+            objMacro.count4 = program.count === null ? "" : ("000" + program.count).slice(-4);
 
             objMacro.YYYY = program.startTime.getFullYear().toString();
             objMacro.YY = program.startTime.getFullYear().toString().slice(-2);
@@ -341,7 +341,11 @@ class Rename {
         console.log("Check Drop...");
 
         if (!this.options.check) {
-            return Promise.resolve();
+            return new Promise(resolve => {
+                console.log(" - skip");
+
+                resolve();
+            });
         } else {
             return new Promise((resolve, reject) => {
                 var readStream = fs.createReadStream(this.options.input);
