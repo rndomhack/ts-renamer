@@ -2,7 +2,7 @@
   "name": "ts-renamer",
   "version": "1.0.0",
   "description": "Rename MPEG-2 TS by infomation",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
