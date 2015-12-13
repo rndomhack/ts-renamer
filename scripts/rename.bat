@@ -21,7 +21,7 @@ title ts-renamer
 for %%i in (%args%) do (
   echo.
   echo ### "%%~i"
-  node index -i "%%~i"
+  node ../cli -i "%%~i"
 )
 
 :end
