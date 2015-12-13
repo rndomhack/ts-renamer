@@ -1,5 +1,4 @@
 @echo off
-cd /d %~dp0
 set args=
 
 :arg1
@@ -21,7 +20,7 @@ title ts-renamer
 for %%i in (%args%) do (
   echo.
   echo ### "%%~i"
-  node ../cli -i "%%~i" -d "${title}" -f "${title}$( 第${count2}話)$( 「${subTitle}」)$( (${channelUserName}))"
+  node "%~dp0../cli.js" -i "%%~i" -d "${title}" -f "${title}$( 第${count2}話)$( 「${subTitle}」)$( (${channelUserName}))"
 )
 
 :end
