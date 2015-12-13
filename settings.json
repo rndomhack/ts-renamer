@@ -1,0 +1,43 @@
+{
+    "replace": [
+        { "find": " ", "replace": ""},
+        { "find": "「", "replace": ""},
+        { "find": "」", "replace": ""},
+        { "find": "アニメ", "replace": ""},
+        { "find": "TVアニメ", "replace": ""},
+        { "find": "水曜アニメ・水もん　", "replace": "" }
+    ],
+    "service": [
+        { "serviceName": "NHKBS1", "channelUserName": "BS1", "channelId": 9},
+        { "serviceName": "NHKBSプレミアム", "channelUserName": "BSP", "channelId": 179},
+        { "serviceName": "BS日テレ", "channelUserName": "BS4", "channelId": 71},
+        { "serviceName": "BS朝日", "channelUserName": "BSA", "channelId": 18},
+        { "serviceName": "BS-TBS", "channelUserName": "BS-TBS", "channelId": 16},
+        { "serviceName": "BSジャパン", "channelUserName": "BSJ", "channelId": 15},
+        { "serviceName": "BSフジ", "channelUserName": "BS-FUJI", "channelId": 17},
+        { "serviceName": "WOWOWプライム", "channelUserName": "WOWOW-Prime", "channelId": 204},
+        { "serviceName": "WOWOWライブ", "channelUserName": "WOWOW-Live", "channelId": 97},
+        { "serviceName": "WOWOWシネマ", "channelUserName": "WOWOW-Cinema", "channelId": 76},
+        { "serviceName": "スターチャンネル1", "channelUserName": "StarChannel1", "channelId": 217},
+        { "serviceName": "スターチャンネル2", "channelUserName": "StarChannel2", "channelId": 219},
+        { "serviceName": "スターチャンネル3", "channelUserName": "StarChannel3", "channelId": 214},
+        { "serviceName": "BS11", "channelUserName": "BS11", "channelId": 128},
+        { "serviceName": "BS12", "channelUserName": "BS12", "channelId": 129},
+
+        { "serviceName": "NHK総合", "channelUserName": "NHK-G", "channelId": 1},
+        { "serviceName": "NHKEテレ", "channelUserName": "NHK-E", "channelId": 2},
+
+        { "serviceName": "日テレ", "channelUserName": "NTV", "channelId": 4},
+        { "serviceName": "テレビ朝日", "channelUserName": "EX", "channelId": 6},
+        { "serviceName": "TBS", "channelUserName": "TBS", "channelId": 5},
+        { "serviceName": "テレビ東京", "channelUserName": "TX", "channelId": 7},
+        { "serviceName": "フジテレビ", "channelUserName": "CX", "channelId": 3},
+
+        { "serviceName": "TOKYO MX", "channelUserName": "MX", "channelId": 19},
+        { "serviceName": "とちぎテレビ", "channelUserName": "GYT", "channelId": 100},
+        { "serviceName": "群馬テレビ", "channelUserName": "GTV", "channelId": 72},
+        { "serviceName": "テレ玉", "channelUserName": "TVS", "channelId": 14},
+        { "serviceName": "チバテレビ", "channelUserName": "CTC", "channelId": 13},
+        { "serviceName": "tvk", "channelUserName": "tvk", "channelId": 8}
+    ]
+}
