@@ -24,7 +24,7 @@
         { "serviceName": "BS11", "channelUserName": "BS11", "channelId": 128},
         { "serviceName": "BS12", "channelUserName": "BS12", "channelId": 129},
         { "serviceName": "BS12", "channelUserName": "BS12", "channelId": 129},
-        { "serviceName": "BSアニマックス", "channelUserName": "ANIMAX", "channelId": 197},
+        { "serviceName": "アニマックス", "channelUserName": "ANIMAX", "channelId": 21},
         { "serviceName": "キッズステーション", "channelUserName": "KIDS", "channelId": 22},
 
         { "serviceName": "NHK総合", "channelUserName": "NHK-G", "channelId": 1},
