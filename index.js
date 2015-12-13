@@ -518,6 +518,8 @@ class Rename {
 
     if (options.input === "") {
         console.log("usage: node ./ts-renamer -i input.ts -p parent -d dir -f file [-c]");
+
+        return;
     }
 
     var rename = new Rename(options);
