@@ -21,7 +21,7 @@ title ts-renamer
 for %%i in (%args%) do (
   echo.
   echo ### "%%~i"
-  node ../cli -i "%%~i"
+  node ../cli -i "%%~i" -d "${title}" -f "${title}$( ëÊ${count2}òb)$( Åu${subTitle}Åv)$( (${channelUserName}))"
 )
 
 :end
