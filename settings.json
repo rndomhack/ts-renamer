@@ -5,7 +5,7 @@
         { "find": "」", "replace": ""},
         { "find": "アニメ", "replace": ""},
         { "find": "TVアニメ", "replace": ""},
-        { "find": "水曜アニメ・水もん　", "replace": "" }
+        { "find": "水曜アニメ・水もん", "replace": "" }
     ],
     "service": [
         { "serviceName": "NHKBS1", "channelUserName": "BS1", "channelId": 9},
@@ -23,8 +23,13 @@
         { "serviceName": "スターチャンネル3", "channelUserName": "StarChannel3", "channelId": 214},
         { "serviceName": "BS11", "channelUserName": "BS11", "channelId": 128},
         { "serviceName": "BS12", "channelUserName": "BS12", "channelId": 129},
+        { "serviceName": "BS12", "channelUserName": "BS12", "channelId": 129},
+        { "serviceName": "BSアニマックス", "channelUserName": "ANIMAX", "channelId": 197},
+        { "serviceName": "キッズステーション", "channelUserName": "KIDS", "channelId": 22},
 
         { "serviceName": "NHK総合", "channelUserName": "NHK-G", "channelId": 1},
+        { "serviceName": "NHKEテレ2", "channelUserName": "NHK-E2", "channelId": 64},
+        { "serviceName": "NHKEテレ3", "channelUserName": "NHK-E3", "channelId": 65},
         { "serviceName": "NHKEテレ", "channelUserName": "NHK-E", "channelId": 2},
 
         { "serviceName": "日テレ", "channelUserName": "NTV", "channelId": 4},
@@ -33,11 +38,24 @@
         { "serviceName": "テレビ東京", "channelUserName": "TX", "channelId": 7},
         { "serviceName": "フジテレビ", "channelUserName": "CX", "channelId": 3},
 
+        { "serviceName": "TOKYO MX2", "channelUserName": "MX2", "channelId": 187},
         { "serviceName": "TOKYO MX", "channelUserName": "MX", "channelId": 19},
         { "serviceName": "とちぎテレビ", "channelUserName": "GYT", "channelId": 100},
         { "serviceName": "群馬テレビ", "channelUserName": "GTV", "channelId": 72},
         { "serviceName": "テレ玉", "channelUserName": "TVS", "channelId": 14},
         { "serviceName": "チバテレビ", "channelUserName": "CTC", "channelId": 13},
-        { "serviceName": "tvk", "channelUserName": "tvk", "channelId": 8}
+        { "serviceName": "tvk", "channelUserName": "tvk", "channelId": 8},
+
+        { "serviceName": "読売テレビ", "channelUserName": "YTV", "channelId": 54},
+        { "serviceName": "ABCテレビ", "channelUserName": "ABC", "channelId": 67},
+        { "serviceName": "MBS毎日放送", "channelUserName": "MBS", "channelId": 48},
+        { "serviceName": "テレビ大阪", "channelUserName": "TVO", "channelId": 28},
+        { "serviceName": "関西テレビ", "channelUserName": "KTV", "channelId": 70},
+
+        { "serviceName": "BBCびわ湖放送", "channelUserName": "BBC", "channelId": 87},
+        { "serviceName": "KBS京都", "channelUserName": "KBS", "channelId": 66},
+        { "serviceName": "奈良テレビ", "channelUserName": "TVN", "channelId": 74},
+        { "serviceName": "サンテレビジョン", "channelUserName": "SUN", "channelId": 58},
+        { "serviceName": "テレビ和歌山", "channelUserName": "WTV", "channelId": 86}
     ]
 }
