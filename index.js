@@ -7,7 +7,7 @@ const aribts = require("aribts");
 const syobocal = require("syobocal");
 const settings = require("./settings");
 
-class Rename {
+class Renamer {
     constructor(options) {
         options = options || {};
 
@@ -184,8 +184,8 @@ class Rename {
             var info = this.info;
 
             // Replace full to half
-            info.eventName = Rename.toHalf(info.eventName);
-            info.serviceName = Rename.toHalf(info.serviceName);
+            info.eventName = Renamer.toHalf(info.eventName);
+            info.serviceName = Renamer.toHalf(info.serviceName);
 
             // Replace brackets
             info.eventName = info.eventName.replace(/\[.+?\]/g, "");
@@ -223,7 +223,7 @@ class Rename {
             usr: "node_syobocal"
         }).then(programs => {
             return new Promise((resolve, reject) => {
-                var filter = programs.filter(program => program.Title.includes(info.eventName.slice(0, 5)));
+                var filter = programs.filter(program => Renamer.toHalf(program.Title).includes(info.eventName.slice(0, 5)));
 
                 if (info.hasOwnProperty("channelId")) {
                     filter = filter.filter(program => program.ChID === info.channelId);
@@ -319,13 +319,13 @@ class Rename {
             var file = this.replaceMacro(this.options.file);
 
             if (dir !== "") {
-                dir = Rename.escape(dir);
+                dir = Renamer.escape(dir);
             }
 
             if (file === "") {
                 file = path.basename(this.options.input, path.extname(this.options.input));
             } else {
-                file = Rename.escape(file).replace(/\\/g, Rename.toFull);
+                file = Renamer.escape(file).replace(/\\/g, Renamer.toFull);
             }
 
             this.output.dir = dir;
@@ -485,7 +485,7 @@ class Rename {
     }
 
     static escape(str, flag) {
-        return str.replace(flag ? /([/\?\*:\|"<>\\])/g : /([/\?\*:\|"<>])/g, Rename.toFull);
+        return str.replace(flag ? /([/\?\*:\|"<>\\])/g : /([/\?\*:\|"<>])/g, Renamer.toFull);
     }
 
     static toHalf(str) {
@@ -528,9 +528,9 @@ class Rename {
         return;
     }
 
-    var rename = new Rename(options);
+    var renamer = new Renamer(options);
 
-    rename.execute().then(() => {
+    renamer.execute().then(() => {
         console.log("Successful");
     }).catch(err => {
         console.error("Error: " + err.message);
