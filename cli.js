@@ -7,7 +7,7 @@ cli.parse({
     input: ["i", "Input file", "path", ""],
     parent: ["p", "Parent folder", "path", ""],
     dir: ["d", "Directory name", "string", ""],
-    file: ["f", "Directory name", "string", ""],
+    file: ["f", "File name", "string", ""],
     check: ["c", "Check file drop", "boolean", false]
 });
 
