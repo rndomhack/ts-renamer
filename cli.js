@@ -24,5 +24,7 @@ cli.main((args, options) => {
         console.log("Successful");
     }).catch(err => {
         console.error("Error: " + err.message);
+
+        process.exitCode = 1;
     });
 });
