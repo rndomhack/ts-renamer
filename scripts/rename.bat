@@ -17,10 +17,19 @@ set args=
 ::--------------------------------------------------
 title ts-renamer
 
+setlocal enabledelayedexpansion
+
 for %%i in (%args%) do (
   echo.
   echo ### "%%~i"
+
   node "%~dp0../cli.js" -i "%%~i" -d "${title}" -f "${title}$( ‘æ${count2}˜b)$( u${subTitle}v)$( (${channelUserName}))"
+
+  if !errorlevel! == 0 (
+    echo OK: %%~i >> %~dp0../log/rename.log
+  ) else (
+    echo NG: %%~i >> %~dp0../log/rename.log
+  )
 )
 
 :end
