@@ -4,8 +4,8 @@ const cli = require("cli");
 const Renamer = require("./lib/renamer");
 
 cli.parse({
-    input: ["i", "Input file", "path", ""],
-    parent: ["p", "Parent folder", "path", ""],
+    input: ["i", "Input file", "string", ""],
+    parent: ["p", "Parent folder", "string", ""],
     dir: ["d", "Directory name", "string", ""],
     file: ["f", "File name", "string", ""],
     check: ["c", "Check file drop", "boolean", false]
