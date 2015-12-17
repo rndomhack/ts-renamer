@@ -8,7 +8,8 @@ cli.parse({
     parent: ["p", "Parent folder", "string", ""],
     dir: ["d", "Directory name", "string", ""],
     file: ["f", "File name", "string", ""],
-    check: ["c", "Check file drop", "boolean", false]
+    check: ["c", "Check file drop", "boolean", false],
+    strict: ["s", "Strict mode", "boolean", false]
 });
 
 cli.main((args, options) => {
