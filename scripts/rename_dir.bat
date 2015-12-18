@@ -19,10 +19,20 @@ title ts-renamer
 
 for %%i in (%args%) do (
     setlocal
-    call :rename "%%~i"
+    call :dir "%%~i"
     endlocal
 )
 goto end
+
+:dir
+    echo.
+    echo ## "%~1"
+
+    for %%i in ("%~1\*.ts") do  (
+        call :rename "%%~i"
+    )
+
+    goto :eof
 
 :rename
     echo.

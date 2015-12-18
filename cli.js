@@ -24,7 +24,7 @@ cli.main((args, options) => {
     renamer.execute().then(() => {
         console.log("Successful");
     }).catch(err => {
-        console.error("Error: " + err.message);
+        console.error(`Error: ${err.message}`);
 
         process.exitCode = 1;
     });
