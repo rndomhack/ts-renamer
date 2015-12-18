@@ -1,4 +1,5 @@
 @echo off
+
 set args=
 
 :arg1
@@ -14,7 +15,6 @@ set args=
     shift /1
     if not "%~1" == "" goto arg1
 
-::--------------------------------------------------
 title ts-renamer
 
 for %%i in (%args%) do (
