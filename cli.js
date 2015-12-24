@@ -8,8 +8,9 @@ cli.parse({
     parent: ["p", "Parent folder", "string", ""],
     dir: ["d", "Directory name", "string", ""],
     file: ["f", "File name", "string", ""],
-    check: ["c", "Check file drop", "boolean", false],
-    strict: ["s", "Strict mode", "boolean", false]
+    checkDrop: ["r", "Check drop", "boolean", false],
+    checkDup: ["u", "Check duplication", "boolean", false],
+    checkService: ["s", "Check service", "boolean", false]
 });
 
 cli.main((args, options) => {

@@ -28,7 +28,7 @@ goto end
     echo.
     echo ### "%~1"
 
-    node "%~dp0../cli.js" -i "%~1" -d "${title}" -f "${title}$( 第${count2}話)$( 「${subTitle}」)$( (${channelUserName}))"
+    node "%~dp0../cli.js" -i "%~1" -d "${title}" -f "${title}$( 第${count2}話)$( 「${subTitle}」)$( (${channelUserName}))" -u
     call :log "%~1" %%errorlevel%%
 
     goto :eof
