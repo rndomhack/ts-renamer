@@ -44,7 +44,7 @@
         { "serviceName": "チバテレビ", "channelUserName": "CTC", "channelId": 13},
         { "serviceName": "tvk", "channelUserName": "tvk", "channelId": 8},
 
-        { "serviceName": "読売テレビ", "channelUserName": "YTV", "channelId": 54},
+        { "serviceName": "読売テレビ", "channelUserName": "ytv", "channelId": 54},
         { "serviceName": "ABCテレビ", "channelUserName": "ABC", "channelId": 67},
         { "serviceName": "MBS毎日放送", "channelUserName": "MBS", "channelId": 48},
         { "serviceName": "テレビ大阪", "channelUserName": "TVO", "channelId": 28},
