@@ -20,7 +20,7 @@
         { "serviceName": "スターチャンネル2", "channelUserName": "StarChannel2", "channelId": 219},
         { "serviceName": "スターチャンネル3", "channelUserName": "StarChannel3", "channelId": 214},
         { "serviceName": "BS11", "channelUserName": "BS11", "channelId": 128},
-        { "serviceName": "BS12", "channelUserName": "BS12", "channelId": 129},
+        { "serviceName": "TwellV", "channelUserName": "BS12", "channelId": 129},
         { "serviceName": "BS12", "channelUserName": "BS12", "channelId": 129},
         { "serviceName": "アニマックス", "channelUserName": "ANIMAX", "channelId": 21},
         { "serviceName": "キッズステーション", "channelUserName": "KIDS", "channelId": 22},
