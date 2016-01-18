@@ -9,7 +9,7 @@ while [ "$#" -gt 0 ]; do
         echo -e "\n### \"$file\""
         node "$basedir/../cli.js" -i "$file" -d '${title}' -f '${title}([ 第${count2}話])([ 「${subTitle}」])([ (${channelUserName})])'
 
-        if [ $? -eq 0 ]; then
+        if [ "$?" -eq 0 ]; then
             echo "OK: $file" >> "$basedir/../log/rename.log"
         else
             echo "NG: $file" >> "$basedir/../log/rename.log"
