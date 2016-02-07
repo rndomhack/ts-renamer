@@ -41,7 +41,7 @@
         { "serviceName": "とちぎテレビ", "channelUserName": "GYT", "channelId": 100},
         { "serviceName": "群馬テレビ", "channelUserName": "GTV", "channelId": 72},
         { "serviceName": "テレ玉", "channelUserName": "TVS", "channelId": 14},
-        { "serviceName": "チバテレビ", "channelUserName": "CTC", "channelId": 13},
+        { "serviceName": "チバテレ", "channelUserName": "CTC", "channelId": 13},
         { "serviceName": "tvk", "channelUserName": "tvk", "channelId": 8},
 
         { "serviceName": "読売テレビ", "channelUserName": "ytv", "channelId": 54},
@@ -54,6 +54,48 @@
         { "serviceName": "KBS京都", "channelUserName": "KBS", "channelId": 66},
         { "serviceName": "奈良テレビ", "channelUserName": "TVN", "channelId": 74},
         { "serviceName": "サンテレビジョン", "channelUserName": "SUN", "channelId": 58},
-        { "serviceName": "テレビ和歌山", "channelUserName": "WTV", "channelId": 86}
+        { "serviceName": "テレビ和歌山", "channelUserName": "WTV", "channelId": 86},
+
+        { "serviceName": "中京テレビ", "channelUserName": "CTV", "channelId": 80},
+        { "serviceName": "メ～テレ", "channelUserName": "NBN", "channelId": 81},
+        { "serviceName": "CBCテレビ", "channelUserName": "CBC", "channelId": 79},
+        { "serviceName": "テレビ愛知", "channelUserName": "TVA", "channelId": 59},
+        { "serviceName": "東海テレビ", "channelUserName": "THK", "channelId": 77},
+
+        { "serviceName": "ぎふチャン", "channelUserName": "GBS", "channelId": 83},
+        { "serviceName": "三重テレビ", "channelUserName": "MTV", "channelId": 82},
+
+        { "serviceName": "札幌テレビ", "channelUserName": "STV", "channelId": 92},
+        { "serviceName": "HTB", "channelUserName": "HTB", "channelId": 88},
+        { "serviceName": "HBC北海道放送", "channelUserName": "HBC", "channelId": 89},
+        { "serviceName": "TVh", "channelUserName": "TVH", "channelId": 90},
+        { "serviceName": "北海道文化放送", "channelUserName": "UHB", "channelId": 91},
+
+        { "serviceName": "テレビ信州", "channelUserName": "TSB", "channelId": 0},
+        { "serviceName": "長野朝日放送", "channelUserName": "ABN", "channelId": 0},
+        { "serviceName": "SBC信越放送", "channelUserName": "SBC", "channelId": 0},
+        { "serviceName": "長野放送", "channelUserName": "NBS", "channelId": 0},
+
+        { "serviceName": "Daiichi-TV", "channelUserName": "SDT", "channelId": 154},
+        { "serviceName": "静岡朝日テレビ", "channelUserName": "SATV", "channelId": 155},
+        { "serviceName": "SBS", "channelUserName": "SBS", "channelId": 113},
+        { "serviceName": "テレビ静岡", "channelUserName": "SUT", "channelId": 141},
+
+        { "serviceName": "RNC西日本テレビ", "channelUserName": "RNC", "channelId": 124},
+        { "serviceName": "瀬戸内海放送", "channelUserName": "KSB", "channelId": 123},
+        { "serviceName": "RSKテレビ", "channelUserName": "RSK", "channelId": 105},
+        { "serviceName": "TSCテレビせとうち", "channelUserName": "TSC", "channelId": 95},
+        { "serviceName": "OHK", "channelUserName": "OHK", "channelId": 104},
+
+        { "serviceName": "FBS福岡放送", "channelUserName": "FBS", "channelId": 96},
+        { "serviceName": "KBC九州朝日放送", "channelUserName": "KBC", "channelId": 138},
+        { "serviceName": "RKB毎日放送", "channelUserName": "RKB", "channelId": 94},
+        { "serviceName": "TVQ九州放送", "channelUserName": "TVQ", "channelId": 93},
+        { "serviceName": "テレビ西日本", "channelUserName": "TNC", "channelId": 144},
+
+        { "serviceName": "KYT鹿児島読売TV", "channelUserName": "KYT", "channelId": 0},
+        { "serviceName": "KKB鹿児島放送", "channelUserName": "KKB", "channelId": 0},
+        { "serviceName": "MBC南日本放送", "channelUserName": "MBC", "channelId": 0},
+        { "serviceName": "KTS鹿児島テレビ", "channelUserName": "KTS", "channelId": 0}
     ]
 }
