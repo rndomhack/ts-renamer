@@ -1,6 +1,7 @@
 # ts-renamer
 
 ## Install
+
 ```bash
 git clone https://github.com/rndomhack/ts-renamer.git
 cd ts-renamer
@@ -9,6 +10,7 @@ mv ./sample/settings.sample.json ./sample/settings.json
 ```
 
 ## Usage
+
 Linux or OSX
 ```bash
 ./scripts/rename.sh foo.ts
