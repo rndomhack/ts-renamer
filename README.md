@@ -6,7 +6,7 @@
 git clone https://github.com/rndomhack/ts-renamer.git
 cd ts-renamer
 npm i
-mv ./sample/settings.sample.json ./sample/settings.json
+cp ./sample/settings.sample.json ./sample/settings.json
 ```
 
 ## Usage
