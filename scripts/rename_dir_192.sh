@@ -7,7 +7,7 @@ while [ "$#" -gt 0 ]; do
 
     find "$1" -name "*.ts" | while read file; do
         echo -e "\n### \"$file\""
-        node "$basedir/../cli.js" --input "$file" --dir '${firstStartYYYY}_Q${firstStartQuarter}/${title}' --file '${title}([ 第${count2}話])([ 「${subTitle}」])([ (${channelUserName})])'
+        node "$basedir/../cli.js" --input "$file" --dir '${firstStartYYYY}_Q${firstStartQuarter}/${title}' --file '${title}([ 第${count2}話])([ 「${subTitle}」])([ (${channelUserName})])' --packet_size 192
 
         if [ "$?" -eq 0 ]; then
             echo "OK: $file" >> "$basedir/../log/rename.log"

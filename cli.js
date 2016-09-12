@@ -4,14 +4,14 @@ const cli = require("cli");
 const Renamer = require("./lib/renamer");
 
 cli.parse({
-    input: ["i", "Input file", "string", ""],
-    parent: ["p", "Parent folder", "string", ""],
-    dir: ["d", "Directory name", "string", ""],
-    file: ["f", "File name", "string", ""],
-    packetSize: ["a", "Packet size", "number", 188],
-    checkDrop: ["r", "Check drop", "boolean", false],
-    checkDup: ["u", "Check duplication", "boolean", false],
-    checkService: ["s", "Check service", "boolean", false]
+    input: [false, "Input file", "string", ""],
+    parent: [false, "Parent folder", "string", ""],
+    dir: [false, "Directory name", "string", ""],
+    file: [false, "File name", "string", ""],
+    packet_size: [false, "Packet size", "number", 188],
+    check_service: [false, "Check service", "boolean", false],
+    check_dup: [false, "Check duplication", "boolean", false],
+    check_drop: [false, "Check drop", "boolean", false]
 });
 
 cli.main((args, options) => {
@@ -21,7 +21,7 @@ cli.main((args, options) => {
         return;
     }
 
-    let renamer = new Renamer(options);
+    const renamer = new Renamer(options);
 
     renamer.execute().then(() => {
         console.log("Successful");

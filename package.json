@@ -1,6 +1,6 @@
 {
   "name": "ts-renamer",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Rename MPEG-2 TS by infomation",
   "main": "cli.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "rndomhack",
   "license": "MIT",
   "dependencies": {
-    "aribts": "^1.3.0",
+    "aribts": "git+https://github.com/rndomhack/node-aribts.git#v2",
     "cli": "^0.11.1",
     "syobocal": "^1.0.0"
   }

@@ -38,7 +38,7 @@ goto end
     echo.
     echo ### "%~1"
 
-    node "%~dp0../cli.js" -i "%~1" -d "${firstStartYYYY}_Q${firstStartQuarter}/${title}" -f "${title}([ 第${count2}話])([ 「${subTitle}」])([ (${channelUserName})])" -a 192
+    node "%~dp0../cli.js" --input "%~1" --dir "${firstStartYYYY}_Q${firstStartQuarter}/${title}" --file "${title}([ 第${count2}話])([ 「${subTitle}」])([ (${channelUserName})])" --packet_size 192
     call :log "%~1" %%errorlevel%%
 
     goto :eof
