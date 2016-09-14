@@ -13,7 +13,7 @@
   "author": "rndomhack",
   "license": "MIT",
   "dependencies": {
-    "aribts": "git+https://github.com/rndomhack/node-aribts.git#v2",
+    "aribts": "^2.0.0",
     "cli": "^0.11.1",
     "syobocal": "^1.0.0"
   }
