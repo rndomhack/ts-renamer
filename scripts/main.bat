@@ -12,11 +12,12 @@ set check_dup=false
 set check_drop=false
 
 set log_file=%~dp0..\log\rename.log
+set get_args=true
 
 if exist "%~dp0../bin/node.exe" (
-  "%~dp0../bin/node.exe" "%~dp0../dragdrop.js" %*
+  "%~dp0../bin/node.exe" "%~dp0../dragdrop.js"
 ) else (
-  node "%~dp0../dragdrop.js" %*
+  node "%~dp0../dragdrop.js"
 )
 
 pause
