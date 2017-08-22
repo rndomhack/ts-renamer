@@ -14,11 +14,11 @@ cp ./sample/settings.sample.json ./sample/settings.json
 Linux or OSX
 ```bash
 ./scripts/rename.sh foo.ts
-./scripts/rename_dir.sh /foo/bar/baz
+./scripts/rename.sh /foo/bar/baz
 ```
 
 Windows
 ```cmd
 .\scripts\rename.bat foo.ts
-.\scripts\rename_dir.bat C:\foo\bar\baz
+.\scripts\rename.bat C:\foo\bar\baz
 ```
