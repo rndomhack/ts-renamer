@@ -1,6 +1,6 @@
 {
   "name": "ts-renamer",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Rename MPEG-2 TS by infomation",
   "main": "cli.js",
   "scripts": {

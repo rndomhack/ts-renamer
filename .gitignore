@@ -3,4 +3,5 @@ log/rename.log
 scripts/*
 !scripts/main.bat
 !scripts/main.sh
+!scripts/edcb.bat
 settings/settings.json
