@@ -1,5 +1,4 @@
 node_modules/
-log/rename.log
 scripts/*
 !scripts/main.bat
 !scripts/main.sh
