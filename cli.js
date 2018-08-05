@@ -32,6 +32,7 @@ program
     .option("-O, --error-output <path>", "Output file path (when error)")
     .option("-p, --packet-size <value>", "Packet size", Number.parseInt)
     .option("-r, --recursive-level <value>", "Recursive level", Number.parseInt)
+    .option("-n, --dry-run", "Print re-named filename instead of really do the re-naming.")
     .option(`--${settings.options.checkService ? "no-" : ""}check-service`, `${settings.options.checkService ? "Disable" : "Enable"} check service`)
     .option(`--${settings.options.checkTime ? "no-" : ""}check-time`, `${settings.options.checkTime ? "Disable" : "Enable"} check time`)
     .option(`--${settings.options.checkDuplication ? "no-" : ""}check-duplication`, `${settings.options.checkDuplication ? "Disable" : "Enable"} check duplication`)
